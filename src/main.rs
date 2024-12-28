@@ -1,6 +1,5 @@
 use rust_bert::pipelines::ner::NERModel;
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
-use serde::Serialize;
 use std::sync::{Arc, Mutex};
 use lazy_static::lazy_static; 
 
